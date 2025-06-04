@@ -36,17 +36,19 @@
 ### 1. Clone dự án
 
 ```bash
-git clone https://github.com/<your-username>/MB_API.git
+git clone https://github.com/hinataloli/MB_API
 cd MB_API
+```
 
 2. Cài dependencies
 ```bash
 npm install
-
+```
 🔐 Mô tả API
 POST /api/mb
 Lấy lịch sử giao dịch của một tài khoản MB Bank.
 ✅ Body JSON
+```bash
 json
 {
   "username": "your_username",
@@ -55,10 +57,12 @@ json
   "from_date": "01/06/2024",
   "to_date": "04/06/2024"
 }
+```
 from_date và to_date không bắt buộc. Nếu không cung cấp, sẽ mặc định lấy từ đầu tháng đến ngày hiện tại.
 
 📥 Phản hồi (ví dụ):
 json
+```bash
 {
   "status": "success",
   "data": [
@@ -71,7 +75,7 @@ json
     }
   ]
 }
-
+```
 🧠 Cấu trúc chính
 File	Chức năng
 index.js	File chính chạy API
@@ -82,11 +86,11 @@ package.json	Cấu hình project
 ▶️ Chạy server
 ```bash
 node index.js
-
+```
 Server sẽ chạy tại:
 ```bash
 http://localhost:8277/api/mb
-
+```
 ⚠️ Cảnh báo
 Không nên sử dụng vào mục đích thương mại hoặc trái pháp luật.
 
