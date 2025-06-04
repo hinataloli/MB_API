@@ -1,0 +1,24 @@
+{
+  "name": "mstrvn.dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "axios-cookiejar-support": "^5.0.5",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsdom": "^24.1.1",
+    "node-fetch": "^3.3.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "tough-cookie": "^4.1.4"
+  }
+}
