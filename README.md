@@ -96,7 +96,6 @@ Không nên sử dụng vào mục đích thương mại hoặc trái pháp lu�
 
 MB Bank có thể thay đổi API bất kỳ lúc nào.
 
-Đăng nhập quá nhiều có thể dẫn tới khóa tài khoản.
 
 💡 Liên hệ
 Nếu bạn thấy hữu ích, hãy ⭐ dự án này!
